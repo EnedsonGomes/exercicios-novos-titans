@@ -2,7 +2,7 @@
     <head>
         <title>Navegação em Rally de Regularidade</title> 
         <link
-             rel="apple-touch-icon"
+             rel="icon"
              href="img/logoelasqueira.png"
              type="img/png"/> 
              <meta charset="utf-8"/>
@@ -10,6 +10,9 @@
     
     <body>
         <h1><strong>Navegação em Rally de Regularidade</strong></h1>
+        <hr/>
+
+        <p>A Planilha é o “mapa” da prova. Nela constam as indicações quilométricas, velocidade, tempo, observações e o caminho a ser seguido. <br> O navegador deverá passar essas informações ao piloto</p>
     
         <img
              src="https://www.mitconsorcio.com.br/storage/app/media/Screenshot_110.png"  
@@ -17,41 +20,100 @@
            
 
         <h2>Lendo uma linha da planilha:</h2>
-        <h2>Distância</h2>
+         
+        <ul>
+            <li><a href ="#Distância">
+                Distância
+            </a></li>
+            <li><a href ="#Tulipa">
+                Tulipa
+            </a></li>
+            <li><a href ="#Média">
+                Média
+            </a></li>
+            <li><a href ="#Tempo">
+                Tempo
+             </a></li>
+             <li> <a href ="#Observações">
+                Observações
+            </a></li>
+        </ul>
+        <h2 id="Distância">Distância</h2>
         <ul>
             <li>Odômetro total da prova</li>
             <li>Distância entre uma tulipa e outra</li>
+            <p>Indica as medidas em quilômetros. No exemplo ao lado, 1.570 significa: um quilômetros, quinhentos e setenta metros. <br> Existe a distância parcial e a acumulada. A parcial é a distância entre duas referências seguidas (aparece no retângulo vermelho no exemplo ao lado).<br> Acumulada é a distância desde quando foi zerado o hodômetro. Ex.: 1.601 é a distância acumulada e 31 metros é a distância parcial entre a referência 95 e a 96. <br> Fique atento, pois nem todas as planilhas mostram a distância parcial e algumas planilhas mostram apenas duas casas decimais na distância acumulada.</p>
+        <img
+            src="img/Captura de Tela 2021-12-29 às 21.33.59.png"
+            height="300px" />
         </ul>
-        <h2>Tulipa</h2>
+        <h2 id="Tulipa">Tulipa</h2>
+        <p> Éum código internacional em forma de setas que indica a direção a ser seguida e as outras possibilidades existentes. Os desenhos devem espelhar os ângulos reais das curvas.<br> A bolinha representa o veículo e a seta indica a direção a ser seguida.
+            ▪ Normalmente o ombro é a referência para alinhar as marcações físicas e usa-se o início do evento na marcação. Início da ponte, <br>início da parada de ônibus, etc, a não ser que algo diferente esteja orientado na observação da referência.
+            ▪ Curvas e confluências: não são usadas como referências exatas, mas podem ajudar a identificar se a medida está muito “fora”. <br>Cada diretor tem um padrão de medição de curvas. Normalmente é usado a medida quando se inicia a esterçar o volante. Converse com o diretor de prova.</p>
+        <img
+            src="img/Captura de Tela 2021-12-29 às 21.42.08.png"
+            height="300px" />
         <ul>
             <li>Indica a referencia de onde você está na prova </li>
             <li>Partindo do circulo para o triangulo, indica a direção que se deve seguir</li>
         </ul>
-        <h2>Média</h2>
+        <h2 id="Média">Média</h2>
+        <p>MÉDIA: mostra o tipo de trecho e o valor. Há 3 tipos de trechos:<br>
+
+            ▪ (V) Velocidade: em Km/h<br>
+            ▪ (D) Deslocamento: tempo para percorrer uma determinada distância.<br>
+            ▪ (N) Neutro: tempo para permanecer parado num determinado local.</p>
+        <img
+            src="img/Captura de Tela 2021-12-29 às 21.48.34.png"
+            height="300px" />
         <ul>
             <li>Indica a velocidade que o trecho deve ser percorrido</li>  
         </ul>       
-        <h2>Tempo</h2>
+        <h2 id="Tempo">Tempo</h2>
+        <p>Aparece no formato hh:mm:ss (hora, minuto, segundo), nos trechos neutros, nos inícios e fins de deslocamentos e em todas as referências dos trechos de velocidade.<br>
+            ▪ A primeira tulipa da Planilha terá o tempo 0:00:00.
+            ▪ O tempo na planilha é gerado a partir da distância indicada na planilha, dividido pela média horária imposta.<br> No exemplo abaixo, você deverá passar pelo bueiro 1 hora, 48 minutos e 33 segundos após o seu horário de largada.</p>
         <ul>
             <li>Indica o tempo ideal que se deve passar naquela referencia</li>
         </ul>
             
-        <h2>Observações</h2>
+        <h2 id="Observações">Observações</h2>
+        <p>Contém informações sobre o que está desenhado na tulipa como placas, valetas,<br> alertas sobre cuidados ao ingressar ou atravessar rodovias e estradas principais.
+            ▪ Alerta sobre zerar o hodômetro e ainda quando engatar 4X4, 4X4 reduzida ou 4X2.<br>
+            ▪ É muito importante passar todas estas informações ao piloto.</p>
         <ul>
             <li>Informações importantes sobre segurança</li>
             <li>Informações importantes sobre a referencia</li>
             <li>Informações importantes que o diretor de prova julgar necessário</li>
         </ul>
-        <P>[ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque<br> laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae<br> dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione volu]</P>
+        <P>Analise o cenário à sua frente e os ângulos dos desenhos.<br>
+            - Há duas estradas na esquerda, uma bem a direita e outra na diagonal à direita.<br>
+            - Importante apontar com a mão para o piloto o caminho correto a seguir.<br>
+            - As setas menores indicam carros da prova vindo na sua direção, ou seja, esse trecho da prova é um laço (balaio).</P>
         <img
             src="https://meumundomit.com.br/assets/Mitsubishi/Assets_etapas/54_idetapa/galeria/ms21_pontagrossa_adrianocarrapato-379.jpg"
-            height="1000px"/>
+            height="700px" />
+
+            <ul>
+                <li><a href ="páginainternasite.html" title="Todo navegador tem que saber">
+                   Dicas de navegação
+                </a></li>
+                <li><a href ="https://www.instagram.com/e_lasqueira_rally/" target="_blank" title="acompanhe nossa rede social">
+                    Dicas e práticas
+                 </a></li>
+                 <a href="https://www.instagram.com/e_lasqueira_rally/" target="_blank"title="siga nossa página"> 
+                    <img
+                     src="../exercicios/img/logoelasqueira.png"
+                     height="100px" /></a>
+                
               
-        <h3>Curso Gestão de Carreia</h3>
-        <h3>Pré-requisitos:</h3>
+        <h3>Balaios</h3>
+        <h3>Como identificá-los na planilha:</h3>
+        <p>É muito comum as provas de regularidade terem balaios, conhecidos como laços ou pegadinhas. <br>Nesse tipo de situação, o encontro com outro veículo é previsto na planilha e o tempo de encontro é previamente calculado com uma margem de segurança em torno de 10 segundos entre um veículo e outro. <br>Em muitas situações a média horária é baixada para que o encontro fique dentro da margem de segurança. Cabe as equipes terem o cuidado para não invadirem a pista, evitando, assim, atrapalhar os demais competidores e também evitando possíveis acidentes.</p>
         <ul>
-            <li>Noções básicas de de excell</li>
-            <li>Noções básicas de de digitação</li>
+            <li>Verificar se existe indicação de carros vindo</li>
+            <li>Verificar semelhanças entre as tulipas próximas</li>
                         
         </ul>
         <p>["Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqu]</p>
