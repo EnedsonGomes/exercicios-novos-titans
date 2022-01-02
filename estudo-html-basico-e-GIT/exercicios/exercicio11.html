@@ -12,23 +12,25 @@
 
         <form>
             <p> 
-                <label>Nome</label><br />
-                <input type="texto" placeholder="Digite seu nome..."/>
+                <label for="nome">Nome</label><br />
+                <input id="nome" value="Digite seu nome" type="texto" placeholder="Digite seu nome..."/>
             </p>
 
             <p>
-                <label>Currículo</label><br />
-                --
+                <label for="Curriculo">Currículo</label><br />
+                <textarea id="Curriculo" rows="10" cols="30">
+                    
+                </textarea>>
             </p>
 
             <p>
-                <label>Foto de Capa</label><br />
-                --
+                <label for="imagem">Foto de Capa</label><br />
+                <input id="imagem" type="file">
             </p>
 
             <p>
-                <input type="checkbox">
-                <label>Federação Ativa?</label><br />
+                <input id="status" type="checkbox">
+                <label for="status">Federação Ativa?</label><br />
             </p>
 
             <button> Cadastrar</button>
