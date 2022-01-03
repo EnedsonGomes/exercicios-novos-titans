@@ -1,0 +1,54 @@
+body{
+    background-color: aliceblue;
+    font-family: Arial;
+    font-size: 12px;    
+}
+
+h1, h3{
+    text-align: center;
+    color: coral;
+}
+
+input[type="text"], select{
+    width: 100%;
+    border: 1px solid coral
+              
+
+}
+
+table{
+    width: 100%;
+    background-color: white;
+    border:1px solid coral;
+    margin-bottom: 15px;
+
+}
+
+hr{    
+    border:1px solid coral
+}
+
+thead{
+    background-color: coral;
+}
+
+th{
+    padding: 9px;
+
+}
+
+td{
+    padding: 9px;
+    border: 1px solid coral;
+    text-align:center;
+    vertical-align:middle; 
+}
+
+button{
+    padding: 12px;
+    font-size: 12px;
+    background-color: white;
+    color: black;
+    border: 3px solid coral;
+    text-transform: uppercase;
+}
