@@ -3,10 +3,9 @@ pasta1/
 "php/variaveis/combina\303\247ao-html-phpindex.php"
 .gitconfig-file
 .gitignore.orig
-.gitignore_BACKUP_52616
+.gitignore_BACKUP_*
 .gitignore_BACKUP_52806
-.gitignore_BACKUP_54087
-.gitignore_LOCAL_52806
+.gitignore_LOCAL_*
 .gitignore_LOCAL_54087
 .gitignore_REMOTE_52616
 .gitignore_REMOTE_52806
