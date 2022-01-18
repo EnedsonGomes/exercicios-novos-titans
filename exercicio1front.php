@@ -35,7 +35,7 @@
      echo 'o resultado da soma é ' . $sum . "\n";
  
  ?>
-        
+            
+    </body>
 
-      
-g</html>
+</html>
