@@ -18,8 +18,4 @@ function isDivisible($param, $divider){
    $message = $param % $divider == 0 ? $param . " é divisível por $divider " . PHP_EOL : $param . " não é divisível por $divider " . PHP_EOL;
    echo $message;
 }
-<<<<<<< HEAD
-=======
 ?>
->>>>>>> main
-
