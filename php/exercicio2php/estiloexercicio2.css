@@ -1,0 +1,18 @@
+#title
+{
+  font-family: sans-serif;
+  color: #380b61;
+  margin-left:10%;
+  margin-top: 10%;
+}
+
+#nome{
+  border-radius: 5px;
+  margin-left: 200;
+}
+
+#button{
+  font-size: 1.2em;
+  background-color: rgb(185, 119, 233);
+  margin-left: 250;
+}
