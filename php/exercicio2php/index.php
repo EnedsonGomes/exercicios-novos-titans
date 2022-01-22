@@ -26,21 +26,5 @@ if ($value % 2 == 0){
 else {   
    echo $value . "não divisível por 2 <br> ";
 }
-
-
-        //($_POST['n1']/5 == 0);
-        //($_POST['n1']/2 == 0);
-
-        //echo 'Sim';
-
-
-     //else{
-        //($_POST['n1']/10  0);
-        //($_POST['n1']/5 == 0);
-        //($_POST['n1']/2 == 0);
-     
-
-     //echo 'o resultado da soma é ' . $sum . "\n";
- 
-
+?>
 
