@@ -30,10 +30,12 @@
      }
      else{
          $sum -= 5;
+     }  
+
      echo 'o resultado da soma é ' . $sum . "\n";
-     }
-     
+ 
  ?>
+        
 
 </body>    
 </html>
