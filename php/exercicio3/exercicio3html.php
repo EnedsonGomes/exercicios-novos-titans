@@ -12,8 +12,13 @@
     <p>              
      <input id="name" name="name1" type="text" placeholder="Digite seu nome..."/>
      <p> 
-     <input id="sexo" name="sexo1" type="text" placeholder="Digite seu sexo..."/>
-     <p> 
+        <label>Masculino</label>
+        <input id="1" name="Masculino" type="radio"/>
+        <label>Feminino</label>
+        <input id="2" name="Feminino"type="radio"/>
+        <label>Outros</label>
+        <input id="3" name="Outros"type="radio"/>
+    <p> 
      <input id="age" name="age1" type="number" placeholder="Digite sua idade..."/>
     </p>  
      <input id="enviar" class="btn_submit" type="submit" value="Enviar">
