@@ -8,4 +8,12 @@ Caso contrário,
 imprimir nome e a mensagem: NÃO ACEITA.
 */
 
+$name = $_POST["name1"];
+$sexo = $_POST["sexo1"];
+$age = $_POST["age1"];
 
+if ($value3 < 25);
+
+elseif($value2 == 2){ 
+    echo "ACEITA <br>";
+ }
