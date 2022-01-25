@@ -13,15 +13,20 @@
      <input id="name" name="name1" type="text" placeholder="Digite seu nome..."/>
      <p> 
         <label>Masculino</label>
-        <input id="1" name="Masculino" type="radio"/>
+        <input id="1" name="sexo" type="radio" value="1"/>
+        </p> 
         <label>Feminino</label>
-        <input id="2" name="Feminino"type="radio"/>
+        <input id="2" name="sexo"type="radio" value="2"/>
+        </p> 
         <label>Outros</label>
-        <input id="3" name="Outros"type="radio"/>
+        <input id="3" name="sexo"type="radio" value="3"/> 
     <p> 
      <input id="age" name="age1" type="number" placeholder="Digite sua idade..."/>
     </p>  
      <input id="enviar" class="btn_submit" type="submit" value="Enviar">
-    <br>
+    <br>_
 </fieldset>            
 </form>
+
+</body>
+</html>
