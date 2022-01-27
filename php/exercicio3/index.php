@@ -45,14 +45,13 @@ $name = $_POST["name1"];
 $sexo = $_POST["sexo"];
 $age = $_POST["age1"];
 
-if($name == null && $sexo == null && $age== null){
-    echo ""; 
-}
-elseif($age <= 25 && $sexo === "F"){
-    echo "<b>ACEITA</b>";
-}
-else{
-    echo "<div class='digite'>NAO ACEITA</div>";
+if(isset ($name) && isset($sexo) && isset($age)){
+    if($age <= 25 && $sexo === "F"){
+        echo "<b>ACEITA</b>";
+    }
+    else{
+        echo "<div class='digite'>NAO ACEITA</div>";
+    }
 }
 ?>
 </body>
