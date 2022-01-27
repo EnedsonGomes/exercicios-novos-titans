@@ -17,31 +17,27 @@ imprimir nome e a mensagem: NÃO ACEITA.
 <body>
 <form action = "index.php" method = "POST">
 <fieldset id="fundo">
-<div id="title"><h3>Cadastro Pessoal<br></h3>
+<div id="title"><h3>Cadastro Pessoal</h3><br></div>
+    <div><input class="digite" name="name1" type="text" placeholder="Digite seu nome..."/></dive>        
+    <div class="middle">
+        <div>
+            <label>Masculino</label>    
+            <input name="sexo" type="radio" value="M"/>
+        </div> 
+        <div>
+            <label>Feminino</label>
+            <input name="sexo"type="radio" value="F"/>
+        </div> 
+        <div>
+            <label>Outros</label>
+            <input name="sexo"type="radio" value="O"/> 
+        </div> 
+    </div>
+    <div>
+        <input class="digite" name="age1" type="number" placeholder="Digite sua idade..."/>
+    </div>  
+    <input id="enviar" class="btn_submit" type="submit" value="Enviar">
 </div>
-    <p>              
-     <input class="digite" name="name1" type="text" placeholder="Digite seu nome..."/>
-    </p>        
-<div class="middle">
-    <p>
-     <label>Masculino</label>    
-     <input name="sexo" type="radio" value="M"/>
-    </p> 
-    <p>
-     <label>Feminino</label>
-     <input name="sexo"type="radio" value="F"/>
-    </p> 
-    <p>
-     <label>Outros</label>
-     <input name="sexo"type="radio" value="O"/> 
-   </p> 
-</div>
-   <p>
-     <input class="digite" name="age1" type="number" placeholder="Digite sua idade..."/>
-    </p>  
-     <input id="enviar" class="btn_submit" type="submit" value="Enviar">
-    <br>
-
 </fieldset>            
 </form>
 <?php
@@ -53,11 +49,11 @@ if($name == null && $sexo == null && $age== null){
     echo ""; 
 }
 elseif($age <= 25 && $sexo === "F"){
-        echo "<b>ACEITA</b>";
-        }
-        else{
-             echo "<div class='digite'>NAO ACEITA</div>";
-        }
+    echo "<b>ACEITA</b>";
+}
+else{
+    echo "<div class='digite'>NAO ACEITA</div>";
+}
 ?>
 </body>
 </html>
