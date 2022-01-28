@@ -4,27 +4,22 @@
 //Ou se não é divisível por nenhum destes
 
 //$value = $_POST['n1'];
-$value = $_POST['n1'] ;
+$value = 45;
+isDivisible($value, 10);
+isDivisible($value, 5);
+isDivisible($value, 2);
+isDivisible($value, 7);
 
-if ($value % 10 == 0){
-   echo $value . " é divisível por 10 <br> ";
+function isDivisible($param, $divider){
+   /*if ($param % $divider == 0)
+      echo $param . " é divisível por $divider " . PHP_EOL;
+   else   
+      echo $param . " não divisível por $divider " . PHP_EOL;*/
+   $message = $param % $divider == 0 ? $param . " é divisível por $divider " . PHP_EOL : $param . " não é divisível por $divider " . PHP_EOL;
+   echo $message;
 }
-else {   
-   echo $value . "não divisível por 10 <br> ";
-}
-
-if ($value % 5 == 0){
-   echo $value . " é divisível por 5 <br> ";
-}
-else {   
-   echo $value . "não divisível por 5 <br> ";
-}
-
-if ($value % 2 == 0){
-   echo $value . " é divisível por 2 <br> ";
-}
-else {   
-   echo $value . "não divisível por 2 <br> ";
-}
+<<<<<<< HEAD
+=======
 ?>
+>>>>>>> main
 
