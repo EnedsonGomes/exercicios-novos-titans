@@ -5,7 +5,7 @@
      <link rel="stylesheet" type="text/css" href="estiloexercicio2.css">
 </head>
 <body>
-<form action = "index.php" method = "POST">
+<form action = "exercicio2html.php" method = "POST">
 <fieldset>
 <div id="title"><h3>Verifique se seu numero é divisiel por 10, 5, ou 2<br></h3>
 </div>
