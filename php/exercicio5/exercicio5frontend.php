@@ -22,8 +22,5 @@ acordo com tamanho dos lados.
     </br>
     </fieldset>            
 </form>
-<?php
-}
-?>
 </body>
 </html>
