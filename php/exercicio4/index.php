@@ -17,31 +17,31 @@ $num3 = $_POST["n3"];
 if (isset($_POST["n1"]) && isset($_POST["n2"]) and isset($_POST["n3"])){
 
     if($num1===$num2 || $num2===$num3 || $num3===$num1){
-    echo "Digite 3 numeros diferentes";
+        echo "Digite 3 numeros diferentes";
     }
     elseif ($num1===$num2 && $num2===$num3 && $num3===$num1){
-    echo "";
+        echo "";
     }
     elseif ($num1<$num2 && $num2<$num3){
-    echo "Os três números na ordem decrescente é $num3, $num2 e $num1.";
+        echo "Os três números na ordem decrescente é $num3, $num2 e $num1.";
     }
     elseif ($num1<$num3 && $num3<$num2) {
-    echo "Os três números na ordem decrescente é $num2, $num3 e $num1.";
+        echo "Os três números na ordem decrescente é $num2, $num3 e $num1.";
     }
     elseif ($num2<$num1 && $num1<$num3) {
-    echo "Os três números na ordem decrescente é $num3, $num1 e $num2.";
+        echo "Os três números na ordem decrescente é $num3, $num1 e $num2.";
     }
     elseif ($num2<$num3 && $num3<$num1) {
-    echo "Os três números na ordem decrescente é $num1, $num3 e $num2.";
+        echo "Os três números na ordem decrescente é $num1, $num3 e $num2.";
     }
     elseif ($num2<$num1 && $num3<$num2) {
-    echo "Os três números na ordem decrescente é $num1, $num2 e $num3.";
+        echo "Os três números na ordem decrescente é $num1, $num2 e $num3.";
     }
     elseif ($num1<$num2 && $num3<$num2) {
-    echo "Os três números na ordem decrescente é $num2, $num1 e $num3.";
+        echo "Os três números na ordem decrescente é $num2, $num1 e $num3.";
     }
     elseif ($num3<$num1 && $num1<$num2) {
-    echo "Os três números na ordem decrescente é $num1, $num3 e $num2.";
+        echo "Os três números na ordem decrescente é $num1, $num3 e $num2.";
     }
     unset ($_POST["n1"],$_POST["n2"],$_POST["n3"]);
 }
