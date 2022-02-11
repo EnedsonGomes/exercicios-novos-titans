@@ -11,12 +11,12 @@ acordo com tamanho dos lados.
 <body>
    <form action = "index.php" method = "POST">
     <fieldset class="fundo">
-    <div id="title"><h3>Checagem de Número</h3><br></div>
-    <div><input class="digite" name="n1" type="number" placeholder="Digite o numero..."/></div> 
+    <div id="title"><h3>Medidas do Triangulo</h3><br></div>
+    <div><input class="digite" name="n1" type="number" placeholder="Digite a medida..."/></div> 
     <br>        
-    <div><input class="digite" name="n2" type="umber" placeholder="Digite o numero..."/></div>
+    <div><input class="digite" name="n2" type="umber" placeholder="Digite a medida..."/></div>
     </br>
-    <div><input class="digite" name="n3" type="number" placeholder="Digite o numero..."/></div>
+    <div><input class="digite" name="n3" type="number" placeholder="Digite a medida..."/></div>
     <br>
     <input class="enviar" class="btn_submit" type="submit" value="Enviar">   
     </br>
