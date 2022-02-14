@@ -1,18 +1,16 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title>Exercicio4php</title> 
+    <title>Exercicio5php</title> 
     <link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
 
 <?php
 $num1 = $_POST["n1"];
-//$num1 = 2;
 $num2 = $_POST["n2"];
-//$num2 = 2;
 $num3 = $_POST["n3"];
-//$num3 = 2;
+
 if (isset($_POST["n1"]) && isset($_POST["n2"]) and isset($_POST["n3"])){
 
     if($num1===$num2 && $num2===$num3 && $num3===$num1){

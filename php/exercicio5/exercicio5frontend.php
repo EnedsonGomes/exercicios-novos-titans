@@ -5,7 +5,7 @@ acordo com tamanho dos lados.
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title>Exercicio4php</title> 
+    <title>Exercicio5php</title> 
     <link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
