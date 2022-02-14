@@ -11,9 +11,12 @@ diferentes).
          <link rel="stylesheet" type="text/css" href="estilo.css">
     </head>
     <body>
+    <div class="enunciado">Entrar com 3 números e imprimi-los em
+ordem decrescente (suponha números
+diferentes). </div>
     <form action = "index.php" method = "POST">
     <fieldset class="fundo">
-    <div id="title"><h3>Checagem de Número</h3><br></div>
+        <div id="title"><h3>Checagem de Número</h3><br></div>
         <div><input class="digite" name="n1" type="number" placeholder="Digite o numero..."/></div> 
         <p>       
         <div><input class="digite" name="n2" type="number" placeholder="Digite o numero..."/></div>
