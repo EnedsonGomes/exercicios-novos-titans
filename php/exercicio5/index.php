@@ -5,6 +5,9 @@
     <link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
+<div class="enunciado"> Ler 3 números, os possíveis lados de um
+triângulo, e imprimir a classificação de
+acordo com tamanho dos lados.</div>
 
 <?php
 $num1 = $_POST["n1"];
