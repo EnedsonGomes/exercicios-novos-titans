@@ -1,28 +1,21 @@
-#title
-{
+#title{
   font-family:cursive;
   color: #082a9c;
   margin-left:25%;
   margin-top: 4%;
 }
-
-.enviar
-{
+.enviar{
   border-style:none;
   margin-left: 42%;
-  margin-top: 0%;
+  margin-top: 6%;
   height: 30;
   width:90;
   background-color:#082a9c;
   font-family: cursive;
   font-size: 16px;
   color: aliceblue;
-  
-  
 }
-
-.fundo
-{
+.fundo{
   background-color:#77e2ee;
   width:200px;
   height:50px;
@@ -30,25 +23,26 @@
   margin-left: 28%;
   border-style:hidden;
   margin-top: 2%;
-
 }
 .digite{
   font-family: cursive;
   text-align: center;
-    color: rgb(9, 170, 9);
-    margin-left: 13%;
-    margin-top: 8%;
-    border-style: none;
+  color: rgb(9, 170, 9);
+  margin-left: 13%;
+  margin-top: 8%;
+  border-style: none;
 }
-.contorno
-{
-    background-color:#eef5f5;
-    width:500px;
-    height:250px;
-    border-color: #082a9c;
-    margin-left: 30%;
-    border-style:inherit;
-    margin-top: 2%;
-  
-  }
-
+.contorno{ 
+  background-color:#eef5f5;
+  width:500px;
+  height:250px;
+  border-color: #082a9c;
+  margin-left: 30%;
+  border-style:inherit;
+  margin-top: 2%;
+}
+.enunciado{
+  margin-left: 450px;
+  margin-top: 40px;
+  font-size: 18px;
+}
