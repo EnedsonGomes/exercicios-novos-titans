@@ -10,6 +10,10 @@ mês com este número
     <link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
+<div class="enunciado">Ler um número inteiro entre 1 e 12 e escrever
+                      o mês correspondente. <br>Caso o número seja
+                      fora desse intervalo,<br> Informar que não existe
+                      mês com este número. </div>
 
 <?php
 $num1 = $_POST["n1"];
@@ -64,15 +68,12 @@ else {
    ?>
        <form action = "index.php" method = "POST">  
         <fieldset class="contorno"> 
-    <div id="title"><h1>Mês Correspondente</h1></div>
-    <fieldset class="fundo">
-        <div><input class="digite" name="n1" type="number" placeholder="Mês de nascimento..."/></div> 
-    </fieldset>
-        <br>
-        <br>
-        <input class="enviar" type="submit" value="Enviar">   
-        </p>
-        </fieldset>           
+            <div id="title"><h1>Mês Correspondente</h1></div>
+            <fieldset class="fundo">
+                <div><input class="digite" name="n1" type="number" placeholder="Mês de nascimento..."/></div> 
+            </fieldset>
+            <input class="enviar" type="submit" value="Enviar">   
+        </fieldset>                     
 </form>
 <?php
 }
