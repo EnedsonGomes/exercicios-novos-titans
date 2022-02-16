@@ -13,20 +13,20 @@ o aluno somente 3 dias
          <link rel="stylesheet" type="text/css" href="estilo.css">
     </head>
     <body>
-    <div id="title"><h3>Controle de Biblioteca</h3><br></div>
+    <div class="enunciado"> Digite o nome do livro que será emprestado e selecione o usuário. </div>
+    <fieldset class="fundo">
+    <div class="title">Controle de Biblioteca</div>
     <form action = "index.php" method = "POST">
-            <label>Livro:</label>
-            <input type="texto" placeholder="Digite o Nome do Livro..."/>
-            <br /><br /> 
-            <label>Usuário</label>
-            <select>
+            <div class="nomedolivro">Livro:</div>
+            <input class="input" type="texto" placeholder="Digite o Nome do Livro..."/>
+            <div class="TipodeUsuário">Usuário:</div>
+            <select class="selecionar">
+                <option></option>
                 <option>Professor</option>
                 <option>Aluno</option>
-            </select>
-            <br>
-            <br>
-            
-            <button>Salvar Dados</button>
+            </select>            
+            <div button class="button">Salvar Dados</button></div>
         </form>
+    </fieldset>
     </body>
 </html>
