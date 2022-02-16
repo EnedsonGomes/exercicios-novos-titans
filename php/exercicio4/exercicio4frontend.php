@@ -8,7 +8,7 @@ diferentes).
     <head>
          <meta charset="utf-8"/>
          <title>Exercicio4php</title> 
-         <link rel="stylesheet" type="text/css" href="estilo.css">
+         <link rel="stylesheet" type="text/css" href="estiloformulario.css">
     </head>
     <body>
     <div class="enunciado">Entrar com 3 números e imprimi-los em
