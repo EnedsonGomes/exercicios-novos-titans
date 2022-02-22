@@ -11,7 +11,7 @@ mês com este número
 </head>
 <body>
 <div class="enunciado">Ler um número inteiro entre 1 e 12 e escrever
-                      o mês correspondente. <br>Caso o número seja
+                      o mês correspondente. <br> Caso o número seja
                       fora desse intervalo,<br> Informar que não existe
                       mês com este número. </div>
 
