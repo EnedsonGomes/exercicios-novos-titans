@@ -16,7 +16,6 @@ produto. </div>
     <fieldset class="fundo">
         <div id="title"><h3>Checagem de Produto</h3><br></div>
         <div><input class="digite" name="n3" type="number" placeholder="Digite o numero..."/></div>
-        </div>  
         <input class="enviar" class="btn_submit" type="submit" value="Enviar">   
     </fieldset>            
     </form>
