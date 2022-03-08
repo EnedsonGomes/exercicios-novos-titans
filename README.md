@@ -1,10 +1,8 @@
 # exercicios-novos-titans
+Como rodar Exercicio 7 - php BACKEND
 
-Como rodar Exercicio 7 - php
-
-É necessário abrir o terminal <br>
-Fazer pull do projeto <br>
-Entrar na pasta novos-titans/php/exercicio7/exercicio7frontend <br>
-No terminal digite php -S localhost:9876, <br>
-Nesta porta digite na url php/exercicio7/exercicio7frontend<br>
-O Exercicio estará disponivel para rodar nesta aba do navegador.<br>
+É necessário abrir o terminal no seu computador
+Fazer pull do projeto no seguinte local novos-titans/php/exercicio7/index.php
+No terminal digite php -S localhost:9876,
+Nesta porta digite na url php/exercicio7/index.php
+O Exercicio estará disponivel para rodar nesta aba do navegador.
