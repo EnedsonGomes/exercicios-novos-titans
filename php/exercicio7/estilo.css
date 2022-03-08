@@ -1,74 +1,65 @@
 .title{
-    font-family:Courier;
-    color: hsl(226, 90%, 32%);
-    margin-left:25%;
-    margin-top: 4%;
-    font-size:x-large;
-  }
-  .nomedolivro{
-    font-family:Courier;
-    text-align: center;
-    color: #082a9c;
-    margin-left: 2%;
-    margin-top: 8%;
-    
-  }
-  .input{
-    margin-left:20px;
-    margin-top: 30px;
-    width:15cm;
-    height:5%;
-    color: #082a9c;
-    text-align: center;
-  }
-  .tipodeUsuário{
-    margin-left:271px;
-    margin-top: 50px;
-    font-family:Courier;
-    color: #082a9c;
-  }
-  .selecionar{
-    margin-left:200px;
-    margin-top: 45px;
-    width:6cm;
-    height:5%;
-    text-align: center;
-  }
-  .button{
-    border-style:none;
-    margin-left: 38%;
-    margin-top: 15%;
-    height: 35;
-    width:150;
-    background-color:#f7f8fa;
-    font-family:Courier;
-    font-size: 16px;
-    color: #082a9c;
-    align-items: center;
-    border-style:outset;
-    padding-top: 2%;
-    padding-left: 3%;
-
-  }
-  
-  .fundo{
-    background-color:#e5eaeb;
-    width:600px;
-    height:540px;
-    border-color: rgb(145, 10, 17);
-    margin-left: 26%;
-    border-style:hidden;
-    margin-top: 2%;
-  }
-    .enunciado{
-    margin-left: 450px;
-    margin-top: 40px;
-    font-size: 18px;
-  }
-  
-
-
-
-  
-
- 
+  font-family:Courier;
+  color: hsl(226, 90%, 32%);
+  margin-left:25%;
+  margin-top: 4%;
+  font-size:x-large;
+}
+.nomedolivro{
+  font-family:Courier;
+  text-align: center;
+  color: #082a9c;
+  margin-left: 2%;
+  margin-top: 10%;
+}
+.input{
+  margin-left:12px;
+  margin-top: 99px;
+  width:15cm;
+  height:5%;
+  color: #082a9c;
+  text-align: center;
+}
+.tipodeUsuário{
+  margin-left:271px;
+  margin-top: 90px;
+  font-family:Courier;
+  color: #082a9c;
+}
+.selecionar{
+  margin-left:197px;
+  margin-top: 90px;
+  width:6cm;
+  height:5%;
+  text-align: center;
+}
+.button{
+  border-style:none;
+  margin-left: 39%;
+  margin-top: 18%;
+  height: 35;
+  width:150;
+  background-color:#f7f8fa;
+  font-family:Courier;
+  font-size: 15px;
+  color: #04248d;
+  align-items: center;
+  border-style:outset;
+  padding-top: -1%;
+  padding-left: 2%;
+  justify-content: center;
+}
+.fundo{
+  background-color:#e5eaeb;
+  width:600px;
+  height:540px;
+  border-color: rgb(145, 10, 17);
+  margin-left: 27%;
+  border-style:hidden;
+  margin-top: 2%;
+}
+.enunciado{
+  margin-left: 450px;
+  margin-top: 40px;
+  font-size: 18px;
+}
