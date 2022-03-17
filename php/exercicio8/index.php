@@ -14,8 +14,17 @@ produto.
 produto. </div>
 <?php
 
-if (isset($_POST["n1"])){
-    $num = $_POST["n1"];
+/**
+ * Essa função limpa o vetor de array, colocando todos como unset.
+ */
+function cleanArray($array) {
+    foreach($array as $key => $value) {
+        unset($array[$key]);
+    }
+}
+
+function processValues ($dados) {
+    $num = $dados["n1"];
     $produto = 1;
 
     if($num <= 0){
@@ -29,8 +38,12 @@ if (isset($_POST["n1"])){
             $produto *= $i;
         }
         echo " O produto é: $produto";
-        unset ($_POST["n1"]);
     }
+}
+
+if (isset($_POST["n1"])){
+    processValues($_POST);
+    cleanArray($_POST);
 }
 else {
    ?>
