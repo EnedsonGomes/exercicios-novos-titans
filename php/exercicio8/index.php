@@ -14,21 +14,21 @@ produto.
 produto. </div>
 <?php
 
-$num = $_POST["n1"];
-$i = $_POST["n1"];
-$p = 1;
-
 if (isset($_POST["n1"])){
+    $num = $_POST["n1"];
+    $produto = 1;
 
     if($num <= 0){
         echo "Digite um numero maior que 0";
     }
     else {
-        for ($i=1; $i <= $num; $i++){
-            echo "$i" . "";
-            $p = $p * $i;
+        $count = 0;
+        for ($i = 1; $i <= $num; $i++){
+            echo "$i" . ",";
+            // $produto = $produto * $i
+            $produto *= $i;
         }
-        echo " O produto é: $p";
+        echo " O produto é: $produto";
         unset ($_POST["n1"]);
     }
 }
