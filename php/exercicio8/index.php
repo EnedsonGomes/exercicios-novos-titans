@@ -20,21 +20,17 @@ $p = 1;
 
 if (isset($_POST["n1"])){
 
-    if($num==0){
+    if($num <= 0){
         echo "Digite um numero maior que 0";
-}   
-    elseif($num>1){
-}
-    elseif($num<0){
-    echo "Digite um numero maior que 0";
-}
-    for ($i=1; $i <= $num; $i++){
-         echo "$i" . "";
-        $p = $p * $i;
-} 
-    echo " O produto é: $p";
-
-    unset ($_POST["n1"]);
+    }
+    else {
+        for ($i=1; $i <= $num; $i++){
+            echo "$i" . "";
+            $p = $p * $i;
+        }
+        echo " O produto é: $p";
+        unset ($_POST["n1"]);
+    }
 }
 else {
    ?>
