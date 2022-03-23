@@ -1,0 +1,39 @@
+#title
+{
+  font-family: sans-serif;
+  color: #79787e;
+  margin-left:35%;
+  margin-top: 10%;
+}
+
+.enviar
+{
+  border-style:dashed;
+  margin-left: 40%;
+  margin-top: 25%;
+  bottom: 0.5em;
+  right:10px;
+  background-color:#888b8a;
+}
+
+.fundo
+{
+  background-color:#e95151;
+  width:250px;
+  height:250px;
+  border-color: rgb(245, 242, 242);
+  margin-left: 40%;
+  border-style:dashed;
+  margin-top: 8%;
+}
+.digite{
+  font-family: sans-serif;
+    color: rgb(54, 33, 1);
+    margin-left: 21%;
+    margin-top: 10%;
+}
+.enunciado{
+    margin-left: 550px;
+    margin-top: 40px;
+    font-size: 18px;
+}
