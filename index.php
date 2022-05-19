@@ -11,7 +11,7 @@
 <a href=php/exercicio2>Exercício 2</a><br/>
 <a href=php/exercicio3>Exercício 3</a><br/>
 <a href=php/exercicio4>Exercício 4</a><br/>
-<a href=php/exercicio5/estilo.css/index.php>Exercício 5</a><br/>
+<a href=php/exercicio5>Exercício 5</a><br/>
 <a href=php/exercicio6>Exercício 6</a><br/>
 <a href=php/exercicio7>Exercício 7</a><br/>
 <a href=php/exercicio8>Exercício 8</a><br/>
