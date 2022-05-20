@@ -1,0 +1,47 @@
+#title{
+    font-family:Georgia;
+    font-size: 20;
+    color: #f5f3f1;
+    margin-left:24%;
+    margin-top: 3%;
+    padding-top: 0.5%;
+    
+  }
+  .enviar{
+    border-style:none;
+    margin-left: 34%;
+    margin-top: 6%;
+    height: 29;
+    width:90;
+    background-color:#717277;
+    font-family: Georgia;
+    font-size: 16px;
+    color: aliceblue;
+  }
+  .fundo{
+    background-color:#f30202;
+    width:2000px;
+    height:300px;
+    border-color: rgb(42, 10, 145);
+    margin-left: 0%;
+    border-style:hidden;
+    margin-top: 2%;
+  }
+  .digite{
+    font-family: Georgia;
+    font-size: medium;
+    text-align: start;
+    color: rgb(9, 9, 9);
+    margin-left: 30%;
+    margin-top: -2%;
+    border-style: none;
+    padding-left: 3%;
+    padding-top: 3%;
+    text-size-adjust: 100;
+  }
+  .enunciado{
+        margin-left: 650px;
+        margin-top: 40px;
+        font-size: 30px;
+        color: #717277;
+  }
