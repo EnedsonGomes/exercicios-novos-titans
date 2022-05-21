@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8"/>
     <title>Exercicio5php</title> 
-    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="/php/exercicio5/estilo.css">
 </head>
 <body>
 <div class="enunciado"> Ler 3 números, os possíveis lados de um
@@ -35,7 +35,7 @@ if (isset($_POST["n1"]) && isset($_POST["n2"]) and isset($_POST["n3"])){
 }
 else {
    ?>
-   <form action = "index.php" method = "POST">
+   <form action = "/php/exercicio5/index.php" method = "POST">
     <fieldset class="fundo">
     <div id="title"><h3>Checagem de Número</h3><br></div>
     <div><input class="digite" name="n1" type="number" placeholder="Digite o numero..."/></div> 
