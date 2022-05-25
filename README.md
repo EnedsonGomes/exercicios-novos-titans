@@ -6,4 +6,5 @@ Fazer pull do projeto informado no link do PR no card nvt 121. Dentro dele, vá 
 Entrando na pasta indicada, Você deve fazer o pull do arquivo exercicio12frontend.php<br>
 No terminal digite php -S localhost:9876, <br>
 Nesta porta digite a url php/exercicio12/exercicio12frontend.php<br>
+>>>>>
 O Exercicio estará disponivel para rodar nesta aba do navegador.<br>
