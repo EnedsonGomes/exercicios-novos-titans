@@ -17,20 +17,20 @@ imprimir a palavra SOL e imprimir
     if ($num <0){
         echo "digite um numero maior que 0";
         }
-        else{
+    else{
         for($i=0; $i<$_POST["n1"]; $i++){
-            echo "<div class='results'>SOL</div>" ;
+            echo "<div class='results'>SOL</div>";
         }
     }
 }
 }
 ?>
-    <form action = "index.php" method = "POST">
-    <fieldset class="fundo">
-        <div id="title"><h3>Número de Impressão</h3><br></div>
-        <div><input class="digite" name="n1" type="number" placeholder="Digite o numero..."/></div>
-        <input class="enviar" class="btn_submit" type="submit" value="Enviar">   
-    </fieldset>            
-    </form>
-    </body>
-    </html>
+<form action = "index.php" method = "POST">
+<fieldset class="fundo">
+    <div id="title"><h3>Número de Impressão</h3><br></div>
+    <div><input class="digite" name="n1" type="number" placeholder="Digite o numero..."/></div>
+    <input class="enviar" class="btn_submit" type="submit" value="Enviar">   
+</fieldset>            
+</form>
+</body>
+</html>
